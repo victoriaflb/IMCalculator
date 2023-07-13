@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+}
+
+.title{
+    margin-bottom: 2rem;
+}
+
+
+
+.banner{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 800px;
+}
+
+.calculator{
+    width: 100%;
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+main{
+    
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+   width: 1000px;
+   animation: slideRight 1.1s linear forwards;
+    align-items: center;
+   display: flex;
+   background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+#banner {
+   
+    width: 640px;
+    border-radius: 10px;
+}
+
+select{
+    
+    padding: 0.2rem;
+    width: 7rem;
+    background-color: #ffffff;
+    
+}
+
+.logo h1{
+    line-height: 35px;
+    color: aliceblue;
+    
+    font-size: 1.2rem;
+}
+
+.calculator h1{
+    gap: 1rem;
+
+}
+
+.resultado{
+    border: 2px solid black;
+}
+
+.logo{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    float: left;
+}
+
+header{
+    display: flex;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: black;
+    animation: slideDown 1s ease forwards;
+    
+}
+
+footer{
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 1.2rem;
+    background-color: #000000;
+    justify-content: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+.formulario input ,select{
+    border-radius: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    text-align: center;
+   flex-direction: column;
+
+}
+
+input{
+
+    background-color: rgb(211, 208, 208);
+    text-decoration: none;
+}
+
+.formulario label {
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+
+button {
+    margin-top: 2rem;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+   }
+   
+   button:active,
+   button:hover {
+    outline: 0;
+   }
+   
+   button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+   
+   button:hover span {
+    background: none;
+    
+   }
+   
+   button:active {
+    transform: scale(1.2);
+   }
+
+
+    @keyframes slideDown {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+   
+    @keyframes slideRight{
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+    
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
