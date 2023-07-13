@@ -1,4 +1,4 @@
 # IMCalculator
 
-![image](https://github.com/victoriaflb/IMCalculator/assets/122183830/fe40077a-3c53-4a43-8fc4-f594d84c136a)
+https://gist.githubusercontent.com/victoriaflb/713a9478c00299a4a5b0990725631b31/raw/59543ba76aa1035e587368dab437e8892b9f6d34/IMCalcultator.svg
 
