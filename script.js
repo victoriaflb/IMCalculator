@@ -30,7 +30,7 @@ const usuario = {
      
     } else if (calculoIMC >= 18.6 && calculoIMC <= 24.9) {
       document.getElementById('resultado').innerHTML = `Seu IMC é ${calculoIMC} e você está no peso ideal.`;
-      document.getElementById('resultado').style.color ='light green';
+      document.getElementById('resultado').style.color ='green';
     
     } else if (calculoIMC >= 25.0 && calculoIMC <= 29.9) {
       
