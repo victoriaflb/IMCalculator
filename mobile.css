@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  font-size: 16px; /* Adjust base font size for mobile */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; /* Add some padding for mobile */
+}
+
+.logo svg {
+  width: 24px; /* Adjust logo size for mobile */
+  height: 24px;
+}
+
+h1 {
+  font-size: 1.5rem; /* Adjust heading size for mobile */
+  margin: 0 0.5rem; /* Add some margin for mobile */
+}
+
+/* Main Styles */
+main {
+  padding: 1rem; /* Add some padding for mobile */
+}
+
+.cartaz {
+  display: flex; /* Make cartaz a flex container for responsive layout */
+  flex-direction: column; /* Stack sections vertically on mobile */
+}
+
+.banner,
+.calculator {
+  flex: 1; /* Make sections take up equal space on mobile */
+}
+
+.banner img {
+  width: 100%; /* Make banner image cover full width on mobile */
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column; /* Stack form and result vertically on mobile */
+  align-items: center; /* Center form and result horizontally on mobile */
+}
+
+.title {
+  margin-bottom: 1rem; /* Add some margin for mobile */
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column; /* Stack labels and inputs vertically on mobile */
+  width: 100%; /* Make form take full width on mobile */
+}
+
+.formulario label,
+.formulario button {
+  margin-bottom: 0.5rem; /* Add some margin for mobile */
+}
+
+.formulario input {
+  padding: 0.5rem; /* Adjust input padding for mobile */
+}
+
+#resultado {
+  text-align: center; /* Center result text on mobile */
+  margin-top: 1rem; /* Add some margin for mobile */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 0.5rem; /* Add some padding for mobile */
+  font-size: 0.8rem; /* Adjust footer font size for mobile */
+}
